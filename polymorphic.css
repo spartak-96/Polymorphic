@@ -1,24 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    background-color: #f6f6f6;
 }
-.WorksansRegFont, .WorksansRegFont *{
+
+.WorksansFont, .WorksansFont * {
     font-family: 'Work Sans', sans-serif;
 }
 
-
-
-
-
+.PlayfairDispFont, .PlayfairDispFont *{
+    font-family: 'Playfair Display', serif;
+}
 
 
 /*------///HEADER\\\---------*/
-.nav{
+header {
+    position: relative;
+    height: 60px;
+    width: 100%;
+}
+
+header, header * {
+    background-color: #fff;
+}
+
+
+.nav {
     right: 0;
     width: 50%;
     position: absolute;
 }
-.nav>ul{
+
+.nav > ul {
     list-style-type: none;
     display: flex;
     font-size: 14px;
@@ -28,9 +41,45 @@
     margin-top: 3%;
     margin-right: 15%;
 }
-.nav li:hover{
+
+.nav li:hover {
     cursor: pointer;
 }
-#blog{
+
+#blog {
     font-weight: 700;
+}
+
+
+/*----------///MAIN\\\-----------------*/
+.main-wrap {
+    margin: 0 15%;
+}
+
+.articles{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.article{
+    margin: 10px;
+    width: 30%;
+}
+.article *{
+    background-color: #fff;
+}
+
+.category{
+    font-size: 12px;
+}
+
+.text>h3{
+    font-size: 20px;
+}
+.text>span{
+    font-size: 12px;
+}
+
+.text>p{
+    font-size: 15px;
 }
