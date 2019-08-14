@@ -8,7 +8,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-.PlayfairDispFont, .PlayfairDispFont *{
+.PlayfairDispFont, .PlayfairDispFont * {
     font-family: 'Playfair Display', serif;
 }
 
@@ -53,33 +53,51 @@ header, header * {
 
 /*----------///MAIN\\\-----------------*/
 .main-wrap {
-    margin: 0 15%;
+    margin: 0 9%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.articles{
+.articles {
     position: relative;
     display: flex;
     flex-direction: column;
 }
-.article{
-    margin: 10px;
-    width: 30%;
+
+.article {
+    margin: 3% 5%;
+    width: 100%;
+    box-shadow: 0 0 5px #dfdfdf;
 }
-.article *{
+
+.article * {
     background-color: #fff;
 }
 
-.category{
+.category {
     font-size: 12px;
+    position: absolute;
+    color: #FFF;
+    background-color: #000;
+    bottom: 10%;
+    left: 2%;
+    text-transform: uppercase;
 }
 
-.text>h3{
+.photo {
+    background-color: #dfdfdf;
+    height: 30vh;
+    position: relative;
+}
+
+.text > h3 {
     font-size: 20px;
 }
-.text>span{
+
+.text > span {
     font-size: 12px;
 }
 
-.text>p{
+.text > p {
     font-size: 15px;
 }
