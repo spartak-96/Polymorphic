@@ -16,8 +16,8 @@
 /*------///HEADER\\\---------*/
 header {
     position: relative;
-    height: 100px;
     width: 100%;
+    padding: 3% 0;
 }
 
 header, header * {
@@ -31,10 +31,8 @@ header > div {
 }
 
 nav {
-    width: 50%;
-    position: absolute;
-    top: 40px;
-    right: 6%;
+    width: 40%;
+    padding-right: 6%;
 }
 
 nav > ul {
@@ -183,3 +181,24 @@ footer{
 .socialIcons>img:hover{
     cursor: pointer;
 }
+
+
+
+
+/*--------///RESPONSIVENESS\\\---------------------*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    nav>ul{
+        display: block;
+    }
+    .articles{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-wrap{
+        flex-wrap: wrap;
+    }
+    .socialIcons{
+        display: flex;
+    }
+}
+
