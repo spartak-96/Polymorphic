@@ -48,7 +48,8 @@ nav a {
     text-decoration: none;
     color: #5f5f5f;
 }
-nav a:hover{
+
+nav a:hover {
     font-weight: 700;
 }
 
@@ -157,47 +158,51 @@ nav a:hover{
 }
 
 
-
-
 /*--------///FOOTER\\\-------------------------------------*/
 
-footer{
+footer {
     background-color: #ebebeb;
     height: 160px;
     position: relative;
 }
 
-.socialIcons{
+.socialIcons {
     position: absolute;
     background-color: #ebebeb;
     top: 40%;
     left: 50%;
     transform: translate(-50%, 0%);
 }
-.socialIcons>img{
+
+.socialIcons > img {
     margin: 0 15px;
 }
 
-.socialIcons>img:hover{
+.socialIcons > img:hover {
     cursor: pointer;
 }
 
 
-
-
 /*--------///RESPONSIVENESS\\\---------------------*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-    nav>ul{
+@media only screen and (max-width: 480px) {
+    nav > ul {
         display: block;
     }
-    .articles{
+
+    .articles {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .main-wrap{
+
+    .article {
+        margin: 10px;
+    }
+
+    .main-wrap {
         flex-wrap: wrap;
     }
-    .socialIcons{
+
+    .socialIcons {
         display: flex;
     }
 }
