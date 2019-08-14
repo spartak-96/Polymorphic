@@ -154,3 +154,29 @@ nav a {
     color: #171717;
     text-transform: uppercase;
 }
+
+
+
+
+/*--------///FOOTER\\\-------------------------------------*/
+
+footer{
+    background-color: #ebebeb;
+    height: 160px;
+    position: relative;
+}
+
+.socialIcons{
+    position: absolute;
+    background-color: #ebebeb;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.socialIcons>img{
+    margin: 0 15px;
+}
+
+.socialIcons>img:hover{
+    cursor: pointer;
+}
